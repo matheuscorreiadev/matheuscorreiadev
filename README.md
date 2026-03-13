@@ -1,6 +1,6 @@
 ## Bem-vindo(a) ao meu perfil! Meu nome é Matheus Correia
 
-Sou Técnico em Informática e atualmente estou cursando Desenvolvimento Front-End onde venho me aprofudando com estudos e pequenos projetos, afim de me especializar na área de programação. Minha pretenção é ser Desenvolvedor Web Full Stack e fazer parte de projetos reais e de muita qualidade, para ter impacto muito positivo na Web. Sou uma pessoa que busca o aprendizado constante!
+Olá! Meu nome é Matheus Correia. Com uma paixão por tecnologia, meu desejo é me tornar um desenvolvedor web full stack. Graduando em Análise e Desenvolvimento de Sistemas na Faculdade Uninter, e também estudante de Desenvolvimento Web Full Stack no Curso DevQuest. Sou um desenvolvedor focado em soluções web eficientes. Gosto de transformar problemas complexos em interfaces intuitivas.
 
 <br>
  
