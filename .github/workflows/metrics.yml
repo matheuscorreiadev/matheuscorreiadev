@@ -12,19 +12,32 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Configurações básicas
+          # 🎨 CONFIGURAÇÕES DE DESIGN MODERNO
           user: matheuscorreiadev
           template: classic
-          base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
+          
+          # Habilita o modo responsivo e paleta de cores moderna integrada ao tema do GitHub
+          config_order: base.header, base.activity+community, languages, achievements
+          
+          # Remove blocos desnecessários do topo para focar no minimalismo
+          base: header, activity, community, repositories, metadata
+          base_indepth: yes
 
-          # 📊 ABA DE LINGUAGENS MAIS USADAS
+          # 📊 MÓDULO DE LINGUAGENS (Visual em gráfico moderno e limpo)
           plugin_languages: yes
-          plugin_languages_ignored: html, css  # Esconde linguagens muito comuns (opcional)
-          plugin_languages_details: percentage # Mostra a porcentagem exata ao lado
-          plugin_languages_limit: 8            # Quantidade máxima de linguagens exibidas
-
-          # 🏆 ABA DE CONQUISTAS (ACHIEVEMENTS)
+          plugin_languages_colors: github     # Usa o padrão oficial de cores do GitHub
+          plugin_languages_sections: most-used # Foca no que você realmente usa
+          plugin_languages_details: percentage # Exibe as barras de progresso modernas
+          plugin_languages_ignored: html, css, scss  # Remove linguagens comuns de marcação
+          plugin_languages_limit: 8            # Mantém o design compacto sem esticar o card
+          
+          # 🏆 MÓDULO DE CONQUISTAS (Estilo medalhas modernas tridimensionais)
           plugin_achievements: yes
-          plugin_achievements_display: compact # Layout compacto (estilo medalhas)
-          plugin_achievements_threshold: X     # Exibe medalhas de qualquer nível (B, A, X)
+          plugin_achievements_display: detailed # Formato moderno em formato de blocos detalhados
+          plugin_achievements_secrets: yes     # Exibe conquistas ocultas divertidas do GitHub
+          plugin_achievements_threshold: X     # Garante exibição de conquistas de alta classificação
+          
+          # 📈 DETALHES DE ATIVIDADE EXTRA (Linha de atividade moderna)
+          plugin_followup: yes
+          plugin_followup_sections: user
