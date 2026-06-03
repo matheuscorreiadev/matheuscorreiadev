@@ -1,8 +1,6 @@
 name: Metrics
 on:
-  # Agenda a atualização automática a cada 12 horas
   schedule: [{cron: "0 */12 * * *"}]
-  # Permite que você force a atualização manualmente pela aba Actions
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -14,8 +12,19 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # Configurações do layout
-          user: matheuscorreiadev
+          # Configurações básicas
+          user: seu-usuario-do-github
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: America/Sao_Paulo
+
+          # 📊 ABA DE LINGUAGENS MAIS USADAS
+          plugin_languages: yes
+          plugin_languages_ignored: html, css  # Esconde linguagens muito comuns (opcional)
+          plugin_languages_details: percentage # Mostra a porcentagem exata ao lado
+          plugin_languages_limit: 8            # Quantidade máxima de linguagens exibidas
+
+          # 🏆 ABA DE CONQUISTAS (ACHIEVEMENTS)
+          plugin_achievements: yes
+          plugin_achievements_display: compact # Layout compacto (estilo medalhas)
+          plugin_achievements_threshold: X     # Exibe medalhas de qualquer nível (B, A, X)
