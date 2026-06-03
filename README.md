@@ -1,6 +1,8 @@
 ## Bem-vindo(a) ao meu perfil! Meu nome é Matheus Correia
 
-Desenvolvedor Full Stack, apaixonado por criar experiências digitais incríveis. Com habilidades em HTML5, CSS3 e JavaScript, estou sempre em busca de desafios para aprimorar minhas habilidades e entregar projetos de alta qualidade. Vamos construir algo incrível juntos!
+Sou Analista e Desenvolvedor de Sistemas com foco em desenvolvimento Full Stack. Tenho experiência na construção de aplicações web modernas utilizando React, Next.js, Node.js e bancos de dados relacionais.
+
+Meu objetivo é desenvolver soluções que entreguem valor real para empresas e usuários, combinando performance, organização de código e interfaces fáceis de usar.
 
 <br>
  
