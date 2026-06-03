@@ -1,0 +1,21 @@
+name: Metrics
+on:
+  # Agenda a atualização automática a cada 12 horas
+  schedule: [{cron: "0 */12 * * *"}]
+  # Permite que você force a atualização manualmente pela aba Actions
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Configurações do layout
+          user: matheuscorreiadev
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
