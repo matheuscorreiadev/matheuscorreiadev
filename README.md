@@ -6,13 +6,8 @@
 
 ## 📊 GitHub Analytics
 
-<div align="center">
+![Minhas Estatísticas do GitHub](github-metrics.svg)
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=matheuscorreiadev&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscorreiadev&layout=compact&theme=radical"/>
-
-</div>
 
 ## 🚀 Tecnologias
 
