@@ -2,7 +2,7 @@
 
 💻 Desenvolvedor Full Stack  
 🚀 Criando aplicações modernas com React, Next.js, Node.js e bancos de dados relacionais.  
-🌎 Salvador - BA
+🌎 Candeias - BA
 
 ## 📊 GitHub Analytics
 
