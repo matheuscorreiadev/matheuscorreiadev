@@ -90,16 +90,6 @@ Site desenvolvido com Next.js, TypeScript e Tailwind CSS para apresentação de 
   </a>
 </p>
 
-<p align="center">
-  <a href="https://matheuscorreiadev.github.io/matheus-dev" target="_blank" rel="noopener noreferrer">
-    🌐 Portfólio
-  </a>
-  •
-  <a href="https://www.linkedin.com/in/matheuscorreiacode" target="_blank" rel="noopener noreferrer">
-    LinkedIn
-  </a>
-</p>
-
 ---
 
 ⭐ Sempre buscando aprender novas tecnologias e criar soluções que gerem impacto real.
