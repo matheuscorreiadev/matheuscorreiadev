@@ -39,10 +39,6 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,express,mysql,prisma,git,github,vscode" />
 </p>
 
-<p align="center">
-  HTML5 • CSS3 • JavaScript • TypeScript • React • Next.js • Node.js • Express • MySQL • Prisma • Git • GitHub
-</p>
-
 ---
 
 ## 🤝 Soft Skills
