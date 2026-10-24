@@ -13,11 +13,11 @@
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=matheuscorreiadev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
+    src="https://github-readme-stats.vercel.app/api?username=matheuscorreiadev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"
   />
   <img
     height="170"
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=matheuscorreiadev&layout=compact&theme=tokyonight&hide_border=true"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheuscorreiadev&layout=compact&theme=tokyonight&hide_border=true"
   />
 </p>
 
@@ -30,7 +30,6 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=matheuscorreiadev&label=Visualizações+do+Perfil&color=0891b2&style=for-the-badge" />
 </p>
-
 ---
 
 ## 🚀 Hard Skills
